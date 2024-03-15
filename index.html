@@ -1,0 +1,473 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="bootstrap.min.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+      integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Neet - Portfolio</title>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary fixed-top px-lg-5">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#home"> &lt; Neet /&gt;</a>
+        <div class="nav-links">
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNavAltMarkup"
+            aria-controls="navbarNavAltMarkup"
+            aria-expanded="false"
+            aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+              <a class="nav-link active" aria-current="page" href="#home"
+                >Home</a
+              >
+              <a class="nav-link" href="#about">About</a>
+              <a class="nav-link" href="#skills">Skills</a>
+              <a class="nav-link" href="#projects">Projects</a>
+              <a class="nav-link" href="#contact">Contact</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <section id="home" class="text-bg-secondary">
+      <div class="container">
+        <img
+          src="image/image.jpeg"
+          height="300px"
+          width="300px"
+          class="rounded-circle"
+          alt="Neet-image" />
+        <h1 class="display-4">Neet Dhameliya</h1>
+        <p class="lead">Full Stack Developer | Web Designer</p>
+        <a href="#projects" class="btn btn-light btn-md">View Portfolio</a>
+        <a href="Neet's_Resume.pdf" class="btn btn-light btn-md">Resume</a>
+        <div class="social-icons pb-2 pt-2 mb-2 fs-3">
+          <a
+            href="https://www.linkedin.com/in/neet-dhameliya/"
+            class="text-white"
+            ><i class="fa-brands fa-linkedin"></i
+          ></a>
+          <a href="https://github.com/NEET64" class="text-white"
+            ><i class="fa-brands fa-square-github"></i
+          ></a>
+          <a
+            href="https://www.youtube.com/channel/UCNuH1iZwWLqYICfjghHNUKg"
+            class="text-white"
+            ><i class="fa-brands fa-square-youtube"></i
+          ></a>
+          <a href="https://www.instagram.com/_just_neet_/" class="text-white"
+            ><i class="fa-brands fa-square-instagram"></i
+          ></a>
+          <a href="" class="text-white"
+            ><i class="fa-brands fa-square-facebook"></i
+          ></a>
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="text-bg-danger">
+      <div class="container mt-5">
+        <div class="row">
+          <div class="col-md-6">
+            <h2>About Me</h2>
+            <p>
+              I'm a 3rd-year CSE student with a passion for Full stack web
+              development. My skills include Java, JavaScript, HTML, CSS, React,
+              Node.js, Express, MongoDB, SQL, Tailwind, and Bootstrap. I also
+              dabble in Android development.
+            </p>
+            <p>
+              I love solving problems and crafting efficient solutions using
+              Data Structures and Algorithms. I actively participate in coding
+              contests on platforms like Leetcode, GFG, Codechef, and
+              Codeforces.
+            </p>
+            <p>
+              Since childhood, my dream has been to become a software engineer.
+              I aspire to develop solutions that simplify life for others.
+            </p>
+          </div>
+          <div class="col-md-6">
+            <img
+              src="image/about.jpg"
+              alt="image"
+              class="img-fluid w-100"
+              style="max-width: 500px" />
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="skills" class="text-bg-success">
+      <div class="container">
+        <h2 class="text-center">Skills</h2>
+        <div
+          class="row justify-content-center row-cols-2 row-cols-md-3 row-cols-lg-6 mt-4 gy-4 skills-container">
+          <div class="col">
+            <div class="skill">
+              <img class="skill-image" src="./skills/HTML.svg" alt="HTML" />
+              <p class="skill-name">HTML</p>
+            </div>
+          </div>
+          <div class="col">
+            <div class="skill">
+              <img class="skill-image" src="./skills/CSS.svg" alt="CSS" />
+              <p class="skill-name">CSS</p>
+            </div>
+          </div>
+          <div class="col">
+            <div class="skill">
+              <img class="skill-image" src="./skills/JS.svg" alt="JavaScript" />
+              <p class="skill-name">JS</p>
+            </div>
+          </div>
+          <div class="col">
+            <div class="skill">
+              <img
+                class="skill-image"
+                src="./skills/typescript.svg"
+                alt="JavaScript" />
+              <p class="skill-name">TypeScript</p>
+            </div>
+          </div>
+          <div class="col">
+            <div class="skill">
+              <img
+                class="skill-image"
+                src="./skills/react.svg"
+                alt="JavaScript" />
+              <p class="skill-name">React</p>
+            </div>
+          </div>
+          <div class="col">
+            <div class="skill">
+              <img
+                class="skill-image"
+                src="./skills/vite.svg"
+                alt="JavaScript" />
+              <p class="skill-name">Vite</p>
+            </div>
+          </div>
+          <div class="col">
+            <div class="skill">
+              <img
+                class="skill-image"
+                src="./skills/git.svg"
+                alt="JavaScript" />
+              <p class="skill-name">Github</p>
+            </div>
+          </div>
+          <div class="col">
+            <div class="skill">
+              <img class="skill-image" src="./skills/NodeJS.svg" alt="NodeJS" />
+              <p class="skill-name">NodeJS</p>
+            </div>
+          </div>
+          <div class="col">
+            <div class="skill">
+              <img
+                class="skill-image"
+                src="../skills/ExpressJS.svg"
+                alt="ExpressJS" />
+              <p class="skill-name">ExpressJS</p>
+            </div>
+          </div>
+          <div class="col">
+            <div class="skill">
+              <img class="skill-image" src="../skills/EJS.svg" alt="EJS" />
+              <p class="skill-name">EJS</p>
+            </div>
+          </div>
+          <div class="col">
+            <div class="skill">
+              <img
+                class="skill-image"
+                src="./skills/Bootstrap.svg"
+                alt="Bootstrap" />
+              <p class="skill-name">Bootstrap</p>
+            </div>
+          </div>
+          <div class="col">
+            <div class="skill">
+              <img
+                class="skill-image"
+                src="./skills/tailwind.svg"
+                alt="Python" />
+              <p class="skill-name">Tailwind</p>
+            </div>
+          </div>
+
+          <div class="col">
+            <div class="skill">
+              <img class="skill-image" src="./skills/C.svg" alt="C" />
+              <p class="skill-name">C</p>
+            </div>
+          </div>
+          <div class="col">
+            <div class="skill">
+              <img class="skill-image" src="./skills/java.svg" alt="Python" />
+              <p class="skill-name">Java</p>
+            </div>
+          </div>
+          <div class="col">
+            <div class="skill">
+              <img class="skill-image" src="./skills/Python.svg" alt="Python" />
+              <p class="skill-name">Python</p>
+            </div>
+          </div>
+          <div class="col">
+            <div class="skill">
+              <img
+                class="skill-image"
+                src="./skills/MongoDB.svg"
+                alt="MongoDB" />
+              <p class="skill-name">MongoDB</p>
+            </div>
+          </div>
+          <div class="col">
+            <div class="skill">
+              <img class="skill-image" src="./skills/sql.svg" alt="MongoDB" />
+              <p class="skill-name">SQL</p>
+            </div>
+          </div>
+          <div class="col">
+            <div class="skill">
+              <img class="skill-image" src="./skills/mysql.svg" alt="MongoDB" />
+              <p class="skill-name">MySQL</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="projects">
+      <div class="container">
+        <h2 class="text-center text-white">Projects</h2>
+        <div class="row justify-content-center mt-4 gy-4">
+          <div class="col-lg-4 col-md-6">
+            <div class="card">
+              <img
+                src="project/wanderhome.png"
+                class="card-img-top"
+                alt="Project Image" />
+              <div class="card-body">
+                <h5 class="card-title">WanderHome</h5>
+                <h6 class="card-subtitle mb-2 text-muted">
+                  Node.js | Express | EJS | MongoDB | Bootstrap
+                </h6>
+                <p class="card-text">
+                  It is an Airbnb clone application using NodeJS, ExpressJS, and
+                  EJS. Used MongoDB and Mongoose for efficient CRUD operations
+                  via API endpoints. Integrated search, category-based listing,
+                  user authentication, and client-side validation with Joi. Used
+                  MongoDB Atlas for DB and Cloudinary API for image storage.
+                </p>
+              </div>
+              <div class="mx-4 mb-4 fs-3">
+                <a
+                  href="https://github.com/NEET64/Airbnb-clone-wanderhome"
+                  class="card-link"
+                  ><i class="fa-brands fa-github"></i
+                ></a>
+                <a
+                  href="https://youtu.be/6OvXJ6w9Xmc?si=Q_kz8SvLXTYXTQJF"
+                  class="card-link"
+                  ><i class="fa-brands fa-youtube"></i
+                ></a>
+                <a
+                  href="https://airbnb-neet-wanderhome.onrender.com/listings"
+                  class="card-link"
+                  ><i class="fa-solid fa-link"></i
+                ></a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6">
+            <div class="card">
+              <img
+                src="project/chess.png"
+                class="card-img-top"
+                alt="Project Image" />
+              <div class="card-body">
+                <h5 class="card-title">Chess Game</h5>
+                <h6 class="card-subtitle mb-2 text-muted">
+                  HTML | CSS | Javascript | OOPs
+                </h6>
+                <p class="card-text">
+                  Incorporated with an open-source chess engine named Stockfish
+                  for a challenging computer player. It is a JavaScript-based
+                  implementation focusing on OOP and DOM manipulation. Include
+                  all the major features like checkmate, king survival, move
+                  suggestions, en passant, and castling.
+                </p>
+              </div>
+              <div class="mx-4 mb-4 fs-3">
+                <a href="https://github.com/NEET64/chess-game" class="card-link"
+                  ><i class="fa-brands fa-github"></i
+                ></a>
+                <a
+                  href="https://www.youtube.com/watch?v=GQ6021qgzAY"
+                  class="card-link"
+                  ><i class="fa-brands fa-youtube"></i
+                ></a>
+                <a href="https://neet64.github.io/chess-game/" class="card-link"
+                  ><i class="fa-solid fa-link"></i
+                ></a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6">
+            <div class="card">
+              <img
+                src="project/bmt.png"
+                class="card-img-top"
+                alt="Project Image" />
+              <div class="card-body">
+                <h5 class="card-title">Book my Trip</h5>
+                <h6 class="card-subtitle mb-2 text-muted">
+                  HTML | CSS | Javascript
+                </h6>
+                <p class="card-text">
+                  Book Your Dream Vacations" offers a seamless booking
+                  experience for unforgettable journeys. Explore stunning
+                  destinations and book your dream trip with ease. Start your
+                  adventure today at our user-friendly website!
+                </p>
+              </div>
+              <div class="mx-4 mb-4 fs-3">
+                <a
+                  href="https://github.com/NEET64/Book-my-trip-project"
+                  class="card-link"
+                  ><i class="fa-brands fa-github"></i
+                ></a>
+                <a
+                  href="https://neet64.github.io/Book-my-trip-project/"
+                  class="card-link"
+                  ><i class="fa-solid fa-link"></i
+                ></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="text-bg-warning pb-5">
+      <div class="container">
+        <h2 class="text-center mb-4">Contact Us</h2>
+        <div class="row">
+          <div class="col-md-6 mx-auto">
+            <form id="contactForm" novalidate>
+              <div class="form-group my-2">
+                <label for="name">Name</label>
+                <input
+                  type="text"
+                  class="form-control"
+                  id="name"
+                  name="name"
+                  required />
+                <div class="invalid-feedback">Please enter your name.</div>
+              </div>
+              <div class="form-group my-2">
+                <label for="email">Email</label>
+                <input
+                  type="email"
+                  class="form-control"
+                  id="email"
+                  name="email"
+                  required />
+                <div class="invalid-feedback">
+                  Please enter a valid email address.
+                </div>
+              </div>
+              <div class="form-group my-2">
+                <label for="message">Message</label>
+                <textarea
+                  class="form-control"
+                  id="message"
+                  name="message"
+                  rows="5"
+                  required></textarea>
+                <div class="invalid-feedback">Please enter a message.</div>
+              </div>
+              <button type="submit" class="btn btn-primary my-4">Submit</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="bg-dark text-light py-4">
+      <div class="text-center mt-3">
+        <p>made by Neet Dhameliya</p>
+      </div>
+    </footer>
+
+    <script src="bootstrap.min.js"></script>
+    <script>
+      (function () {
+        "use strict";
+        window.addEventListener(
+          "load",
+          function () {
+            var form = document.getElementById("contactForm");
+            form.addEventListener(
+              "submit",
+              function (event) {
+                if (!form.checkValidity()) {
+                  event.preventDefault();
+                  event.stopPropagation();
+                } else {
+                  console.log("yet to impliment");
+                }
+                form.classList.add("was-validated");
+              },
+              false
+            );
+          },
+          false
+        );
+      })();
+    </script>
+    <script>
+      function updateActiveNavLink() {
+        const sections = document.querySelectorAll("section");
+        const navLinks = document.querySelectorAll(".navbar-nav .nav-link");
+
+        sections.forEach((section) => {
+          const sectionTop = section.offsetTop;
+          const sectionHeight = section.clientHeight;
+          const navLink = document.querySelector(
+            `.navbar-nav .nav-link[href="#${section.id}"]`
+          );
+
+          if (
+            window.scrollY >= sectionTop - sectionHeight * 0.25 &&
+            window.scrollY < sectionTop + sectionHeight * 0.75
+          ) {
+            navLinks.forEach((link) => link.classList.remove("active"));
+            navLink.classList.add("active");
+          }
+        });
+      }
+
+      window.addEventListener("scroll", updateActiveNavLink);
+
+      updateActiveNavLink();
+    </script>
+  </body>
+</html>
